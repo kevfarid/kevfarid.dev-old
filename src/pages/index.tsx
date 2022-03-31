@@ -1,5 +1,5 @@
-import Callout from "components/atoms/Callout";
-import type { NextPage } from "next";
+import Callout from 'components/atoms/Callout';
+import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (

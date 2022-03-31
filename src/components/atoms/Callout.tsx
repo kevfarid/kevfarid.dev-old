@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import ITheme from "models/ITheme";
+import styled from '@emotion/styled';
+import ITheme from 'models/ITheme';
 
 export default function Callout(props: CalloutProps) {
   const { children, emojin, align, variant, ...otherProps } = props;
@@ -13,19 +13,19 @@ export default function Callout(props: CalloutProps) {
 const CalloutStyled = styled.div`
   display: flex;
   align-items: center;
-  background-color: ${(props: Omit<CalloutProps, "emojin">) =>
-    props.theme?.colors[props.variant || "primary"]};
-  color: ${(props: Omit<CalloutProps, "emojin">) =>
-    props.theme?.colors.light || "white"};
-  justify-content: ${(props: Omit<CalloutProps, "emojin">) =>
-    props.align || "left"};
+  background-color: ${(props: Omit<CalloutProps, 'emojin'>) =>
+    props.theme?.colors[props.variant || 'primary']};
+  color: ${(props: Omit<CalloutProps, 'emojin'>) =>
+    props.theme?.colors.light || 'white'};
+  justify-content: ${(props: Omit<CalloutProps, 'emojin'>) =>
+    props.align || 'left'};
   padding: 0.7rem;
 `;
 
 type CalloutProps = {
   children: React.ReactNode;
   emojin: string;
-  variant?: "primary" | "secondary" | "success" | "danger" | "warning" | "info";
+  variant?: 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info';
   theme?: ITheme;
-  align?: "left" | "center" | "right";
+  align?: 'left' | 'center' | 'right';
 };

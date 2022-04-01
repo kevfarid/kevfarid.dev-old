@@ -33,7 +33,7 @@ const constants: IConstants = {
   },
   default: {
     theme: 'dark',
-    language: 'es',
+    language: 'en',
   },
 };
 

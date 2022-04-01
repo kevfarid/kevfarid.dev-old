@@ -3,11 +3,10 @@ import useConfig from 'hooks/useConfig';
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
-  const { languageTexts } = useConfig();
-  console.log(languageTexts);
+  const { lang } = useConfig();
   return (
     <Callout emojin="🏗" variant="danger" align="center">
-      Side in development.
+      {lang?.sections?.buildBanner.text}
     </Callout>
   );
 };

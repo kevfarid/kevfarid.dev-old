@@ -1,0 +1,14 @@
+{
+  "title": "Kevin Cruz",
+  "subtitle": "Software Engineer",
+  "description": "Soy Software Engineer, apasionado por la tecnología y la programación. Me apasiona la tecnologia y la innovación. Estuve trabajando como Freelance para varias negocios en mi ciudad (Bogota), mejorando la gestion del negocio con diferentes soluciones. Ahora trabajo en una empresa de tecnologia en Colombia, donde me encargo de desarrollar webcomponents",
+  "nickname": "kevfarid",
+  "atsign": "@KevFarid",
+  "email": "hi@kevfarid.dev",
+  "sections": {
+    "buildBanner": {
+      "title": "BuildBanner",
+      "text": "Sitio en desarrollo"
+    }
+  }
+}

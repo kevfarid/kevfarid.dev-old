@@ -1,0 +1,14 @@
+{
+  "title": "Kevin Cruz",
+  "subtitle": "Software Engineer",
+  "description": "I'm a Software Engineer specializing in Front-end, I am passionate about technology and innovation. I was a Freelance for several companies in my city (Bogotá), improving the management of the business with different solutions. Now I'm working in a company as Software Engineer, creating web components",
+  "nickname": "kevfarid",
+  "atsign": "@KevFarid",
+  "email": "hi@kevfarid.dev",
+  "sections": {
+    "buildBanner": {
+      "title": "BuildBanner",
+      "text": "Side in Development"
+    }
+  }
+}

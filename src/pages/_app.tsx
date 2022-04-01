@@ -1,23 +1,12 @@
-import { ThemeProvider, Global } from '@emotion/react';
+import Wrapper from 'components/templates/Wrapper';
 import { ConfigProvider } from 'context/ConfigContext';
 import type { AppProps } from 'next/app';
 import 'styles/main.css';
-import THEME from 'styles/theme';
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp(props: AppProps) {
   return (
     <ConfigProvider>
-      <ThemeProvider theme={THEME}>
-        <Component {...pageProps} />
-        <Global
-          styles={{
-            body: {
-              backgroundColor: THEME.colors.background,
-              color: THEME.colors.text,
-            },
-          }}
-        />
-      </ThemeProvider>
+      <Wrapper {...props} />
     </ConfigProvider>
   );
 }

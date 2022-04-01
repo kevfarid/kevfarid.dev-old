@@ -1,13 +1,8 @@
+import IColors from './IColors';
+
 export default interface ITheme {
-  colors: {
-    primary: string;
-    secondary: string;
-    success: string;
-    danger: string;
-    warning: string;
-    info: string;
-    light: string;
-    dark: string;
+  colors: IColors;
+  basic: {
     background: string;
     text: string;
   };

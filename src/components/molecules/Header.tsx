@@ -36,9 +36,10 @@ const NavStyled = styled.nav`
   display: flex;
 `;
 
-const ActionsStyled = styled.div`
+const ActionsStyled = styled.section`
   display: flex;
   gap: 0.5rem;
+  align-items: center;
 `;
 
 const NavItem = styled.a`

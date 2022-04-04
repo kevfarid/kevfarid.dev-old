@@ -1,4 +1,6 @@
 import { ThemeProvider, Global } from '@emotion/react';
+import Callout from 'components/atoms/Callout';
+import Header from 'components/molecules/Header';
 import useConfig from 'hooks/useConfig';
 import ITheme from 'models/ITheme';
 import type { AppProps } from 'next/app';
@@ -11,12 +13,18 @@ function Wrapper({ Component, pageProps }: AppProps) {
 
   const [THEME, setTheme] = React.useState<ITheme>(isDark ? DARK : LIGHT);
 
+  const { lang } = useConfig();
+
   useEffect(() => {
     setTheme(isDark ? DARK : LIGHT);
   }, [isDark]);
 
   return (
     <ThemeProvider theme={THEME}>
+      <Callout emojin="🏗" variant="danger" align="center">
+        {lang?.sections?.buildBanner.text}
+      </Callout>
+      <Header />
       <Component {...pageProps} />
       <Global
         styles={{

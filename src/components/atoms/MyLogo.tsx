@@ -7,8 +7,8 @@ export default function MyLogo({ witdh, height, color }: MyLogoProps) {
     <svg
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
-      width={witdh || '8rem'}
-      height={height || '8rem'}
+      width={witdh || height || 50}
+      height={height || witdh || 50}
       viewBox="0 0 500.000000 600.000000"
       preserveAspectRatio="xMidYMid meet"
     >

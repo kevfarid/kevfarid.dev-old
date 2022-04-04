@@ -4,7 +4,7 @@ import COLORS from 'styles/colors';
 const DARK: ITheme = {
   colors: COLORS,
   basic: {
-    background: '#212121',
+    background: '#171A1F',
     text: '#f5f5f5',
   },
 };

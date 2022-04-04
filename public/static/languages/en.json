@@ -5,10 +5,36 @@
   "nickname": "kevfarid",
   "atsign": "@KevFarid",
   "email": "hi@kevfarid.dev",
+  "paths": [
+    {
+      "path": "/",
+      "title": "Home",
+      "isSection": false
+    },
+    {
+      "path": "/about",
+      "title": "About",
+      "isSection": true
+    },
+    {
+      "path": "/projects",
+      "title": "Projects",
+      "isSection": true
+    },
+    {
+      "path": "/contact",
+      "title": "Contact",
+      "isSection": true
+    }
+  ],
   "sections": {
     "buildBanner": {
       "title": "BuildBanner",
       "text": "Side in Development"
+    },
+    "home": {
+      "title": "Home",
+      "text": "Hi, I'm Kevin Cruz, a Software Engineer specializing in Front-end, I am passionate about technology and innovation. I was a Freelance for several companies in my city (Bogotá), improving the management of the business with different solutions. Now I'm working in a company as Software Engineer, creating web components"
     }
   }
 }

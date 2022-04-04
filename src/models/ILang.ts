@@ -5,9 +5,17 @@ export default interface ILang {
   nickname: string;
   atsing: string;
   email: string;
+  paths: IPath[];
   sections: {
     buildBanner: ISection;
+    home: ISection;
   };
+}
+
+interface IPath {
+  path: string;
+  isSection: boolean;
+  title: string;
 }
 
 interface ISection {

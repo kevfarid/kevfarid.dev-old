@@ -5,7 +5,7 @@ const LIGHT: ITheme = {
   colors: COLORS,
   basic: {
     background: '#f5f5f5',
-    text: '#212121',
+    text: '#171A1F',
   },
 };
 

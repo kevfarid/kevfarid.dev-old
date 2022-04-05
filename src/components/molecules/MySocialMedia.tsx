@@ -4,16 +4,24 @@ import Linkedin from 'components/atoms/icons/Linkedin';
 import Mail from 'components/atoms/icons/Mail';
 import Twitter from 'components/atoms/icons/Twitter';
 import LinkExtenal from 'components/atoms/LinkExternal';
+import useConfig from 'hooks/useConfig';
 
 export default function MySocialMedia() {
+  const { constants } = useConfig();
   return (
     <SocialMediaStyled>
-      <LinkExtenal href="https://github.com/" target="black">
+      <LinkExtenal href={constants.profilesUrls.github} target="black">
         <GitHub label="Github" />
       </LinkExtenal>
-      <Linkedin label="Linkedin" />
-      <Twitter label="Twitter" />
-      <Mail label="Email" />
+      <LinkExtenal href={constants.profilesUrls.twitter} target="black">
+        <Twitter label="Twitter" />
+      </LinkExtenal>
+      <LinkExtenal href={constants.profilesUrls.linkedin} target="black">
+        <Linkedin label="Linkedin" />
+      </LinkExtenal>
+      <LinkExtenal href={constants.profilesUrls.email} target="black">
+        <Mail label="Email" />
+      </LinkExtenal>
     </SocialMediaStyled>
   );
 }

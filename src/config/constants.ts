@@ -7,8 +7,8 @@ const constants: IConstants = {
   avatar: 'https://avatars.githubusercontent.com/u/51223315?v=4',
   profilesUrls: {
     linkedin: 'https://www.linkedin.com/in/kevfarid/',
-    github: 'https://github.com/KevFarid',
-    email: 'kpelaez75@gmail.com',
+    github: 'https://github.com/kevfarid',
+    email: 'mailto:hi@kevfarid.dev',
     cv: '/cv-kevin-farid-cruz.pdf',
     twitter: 'https://twitter.com/KevFarid_',
   },

@@ -1,4 +1,4 @@
-import { ThemeProvider, Global } from '@emotion/react';
+import { Global, ThemeProvider } from '@emotion/react';
 import Callout from 'components/atoms/Callout';
 import Header from 'components/molecules/Header';
 import useConfig from 'hooks/useConfig';

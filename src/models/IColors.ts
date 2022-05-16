@@ -8,3 +8,13 @@ export default interface IColors {
   light: string;
   dark: string;
 }
+
+export type ColorsVariant =
+  | 'primary'
+  | 'secondary'
+  | 'success'
+  | 'danger'
+  | 'warning'
+  | 'info'
+  | 'light'
+  | 'dark';

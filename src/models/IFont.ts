@@ -1,8 +1,8 @@
 interface IFont {
   fontFamily: string;
-  fontSize: number;
-  fontWeight: number;
-  lineHeight: number;
+  fontSize: number | string;
+  fontWeight: number | string;
+  lineHeight: number | string;
 }
 
 export default interface IFonts {
@@ -13,5 +13,5 @@ export default interface IFonts {
   body?: IFont;
   caption?: IFont;
   button?: IFont;
-  buttonSmall?: IFont;
+  link?: IFont;
 }

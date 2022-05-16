@@ -11,12 +11,14 @@ export default function WrapperIcon({
 }: WrapperProps) {
   const theme = useTheme() as ITheme;
 
+  const svgSize = size || 30;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 30 30"
-      width={size || '30'}
-      height={size || '30'}
+      viewBox={`0 0 ${svgSize} ${svgSize}`}
+      width={svgSize}
+      height={svgSize}
       fill={color || theme.basic.text}
       {...otherProps}
     >

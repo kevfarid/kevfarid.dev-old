@@ -2,6 +2,8 @@ import styled from '@emotion/styled';
 import useConfig from 'hooks/useConfig';
 import ITheme from 'models/ITheme';
 
+import WrapperIcon from './WrapperIcon';
+
 export default function ThemeIcon() {
   const { isDark, setIsDark } = useConfig();
 
@@ -11,14 +13,7 @@ export default function ThemeIcon() {
 
   return (
     <ButtonStyle onClick={handleClick}>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5"
-        height={20}
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        onClick={handleClick}
-      >
+      <WrapperIcon size={20}>
         {isDark ? (
           <path
             fillRule="evenodd"
@@ -28,7 +23,7 @@ export default function ThemeIcon() {
         ) : (
           <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
         )}
-      </svg>
+      </WrapperIcon>
     </ButtonStyle>
   );
 }

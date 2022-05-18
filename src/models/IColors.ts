@@ -1,5 +1,6 @@
 export default interface IColors {
   primary: string;
+  primaryHover: string;
   secondary: string;
   success: string;
   danger: string;
@@ -11,6 +12,7 @@ export default interface IColors {
 
 export type ColorsVariant =
   | 'primary'
+  | 'primaryHover'
   | 'secondary'
   | 'success'
   | 'danger'

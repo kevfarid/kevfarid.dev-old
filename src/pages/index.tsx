@@ -1,12 +1,12 @@
 import MySocialMedia from 'components/molecules/MySocialMedia';
-import Text from 'components/atoms/Text';
 import type { NextPage } from 'next';
+import { About } from 'components/molecules/About';
 
 const Home: NextPage = () => {
   return (
     <>
       <MySocialMedia />
-      <Text>Hello Next.js</Text>
+      <About title="About" description="Hello, I am a web developer" />
     </>
   );
 };

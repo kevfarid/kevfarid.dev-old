@@ -2,6 +2,7 @@ import IColors from 'models/IColors';
 
 const COLORS: IColors = {
   primary: '#55688A',
+  primaryHover: '#4A5C6F',
   secondary: '#BD8F40',
   success: '#4caf50',
   danger: '#f44336',

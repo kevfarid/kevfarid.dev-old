@@ -34,7 +34,19 @@
     },
     "home": {
       "title": "Inicio",
-      "text": "Hola, soy Kevin Cruz, apasionado por la tecnología y la programación. Me apasiona la tecnologia y la innovación. Estuve trabajando como Freelance para varias negocios en mi ciudad (Bogota), mejorando la gestion del negocio con diferentes soluciones. Ahora trabajo en una empresa de tecnologia en Colombia, donde me encargo de desarrollar webcomponents"
+      "text": "Hola, soy Kevin Cruz, apasionado por la tecnología y la programación. Me apasiona la tecnologia y la innovación. Estuve trabajando como Freelance para varias negocios en mi ciudad (Bogota), mejorando la gestion del negocio con diferentes soluciones. Ahora trabajo en una empresa de tecnologia en Colombia, donde me encargo de desarrollar webcomponents",
+      "buttons": {
+        "cv": {
+          "title": "Mi CV",
+          "url": "https://kevfarid.dev/cv",
+          "type": "download"
+        },
+        "portfolio": {
+          "title": "Portafolio",
+          "url": "#portfolio",
+          "type": "scroll"
+        }
+      }
     }
   }
 }

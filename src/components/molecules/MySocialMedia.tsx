@@ -30,5 +30,6 @@ const SocialMediaStyled = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  gap: 1rem;
+  max-width: 300px;
 `;

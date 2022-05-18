@@ -18,10 +18,26 @@ interface IPath {
   title: string;
 }
 
+interface IComponent {
+  title: string;
+}
+
+interface IButton {
+  title: string;
+  url: string;
+  type: string;
+}
+
 interface ISection {
   title: string;
   text: string;
   description?: string;
   path?: string;
   subtitle?: string;
+  components?: {
+    [key: string]: IComponent;
+  };
+  buttons: {
+    [key: string]: IButton;
+  };
 }

@@ -17,6 +17,6 @@ export default function ImageCustom(props: ImageProps) {
 type ImageProps = {
   src: string;
   alt: string;
-  width?: number;
-  height?: number;
+  width?: number | string;
+  height?: number | string;
 };

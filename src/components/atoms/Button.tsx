@@ -9,6 +9,7 @@ const buttonGeneric = {
   gap: '0.5rem',
   fontSize: '1rem',
   fontWeight: '600',
+  minWidth: '7.5rem',
 };
 
 const buttonStyles = {

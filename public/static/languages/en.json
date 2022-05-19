@@ -38,7 +38,7 @@
       "buttons": {
         "cv": {
           "title": "My CV",
-          "url": "https://kevfarid.dev/cv.pdf",
+          "url": "/docs/cv-kevin-cruz.pdf",
           "type": "download"
         },
         "portfolio": {

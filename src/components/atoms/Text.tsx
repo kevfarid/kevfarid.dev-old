@@ -19,6 +19,10 @@ const createStyleds = (props: TextProps) => ({
   textAlign: props.align || 'left',
   color: props.color || props.theme?.basic.text,
   ...props.theme?.fonts[props.variant || 'body'],
+  marginTop: props['margin-top'],
+  marginBottom: props['margin-bottom'],
+  marginLeft: props['margin-left'],
+  marginRight: props['margin-right'],
 });
 
 const textVariant = {
@@ -47,5 +51,9 @@ type TextProps = {
   color?: ColorsVariant;
   variant?: Variants;
   theme?: ITheme;
+  'margin-top'?: string;
+  'margin-bottom'?: string;
+  'margin-left'?: string;
+  'margin-right'?: string;
   align?: 'left' | 'center' | 'right';
 };

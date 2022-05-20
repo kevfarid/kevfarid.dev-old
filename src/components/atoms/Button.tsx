@@ -19,10 +19,10 @@ const buttonStyles = {
     border: '0',
     borderRadius: '0.7rem',
     padding: '0.7rem',
-    color: theme.basic.text,
+    color: theme.colors.light,
     '&:hover': {
       backgroundColor: theme.colors.primaryHover,
-      color: theme.colors.dark,
+      color: theme.colors.secondary,
     },
   })),
   secondary: styled.button<ButtonProps>(({ theme }) => ({

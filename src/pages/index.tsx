@@ -1,13 +1,17 @@
 import type { NextPage } from 'next';
-import Hero from 'components/organism/Hero';
+import HomeSection from 'components/templates/HomeSection';
+import useConfig from 'hooks/useConfig';
 
 const Home: NextPage = () => {
+  const { lang, constants } = useConfig();
+
   return (
     <>
-      <Hero
-        title="Hi! My name is Kev"
-        description="Hello, I am a web developer"
-        src="/static/images/me.png"
+      <HomeSection
+        title={lang.sections?.home?.title}
+        description={lang.sections?.home?.text}
+        image={constants.avatar}
+        section="home"
       />
     </>
   );

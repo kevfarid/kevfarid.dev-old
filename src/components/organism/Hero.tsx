@@ -10,7 +10,7 @@ import Text from 'components/atoms/Text';
 import useConfig from 'hooks/useConfig';
 
 export default function Hero(props: HeroProps) {
-  const { title, description, src } = props;
+  const { title, description, src, section } = props;
 
   const { lang } = useConfig();
 
@@ -25,7 +25,7 @@ export default function Hero(props: HeroProps) {
   };
 
   return (
-    <HeroStyles>
+    <HeroStyles id={section}>
       <HeroAboutStyles>
         <About title={title} description={description} />
         <ButtonGroup>
@@ -34,7 +34,7 @@ export default function Hero(props: HeroProps) {
               handleClick(buttons.cv.url, buttons.cv?.type);
             }}
             variant="primary"
-            icon={<PaperPlane />}
+            icon={<PaperPlane color="#fff" />}
           >
             {buttons?.cv?.title}
           </Button>
@@ -83,4 +83,5 @@ type HeroProps = {
   title: string;
   description: string;
   src: string;
+  section: string;
 };

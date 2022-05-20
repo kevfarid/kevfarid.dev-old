@@ -1,10 +1,10 @@
 {
-  "title": "Kevin Cruz",
+  "title": "Kevin Farid Cruz",
   "subtitle": "Software Engineer",
   "description": "I'm a Software Engineer specializing in Front-end, I am passionate about technology and innovation. I was a Freelance for several companies in my city (Bogotá), improving the management of the business with different solutions. Now I'm working in a company as Software Engineer, creating web components",
   "nickname": "kevfarid",
   "atsign": "@KevFarid",
-  "email": "hi@kevfarid.dev",
+  "email": "kevfaridc@gmail.com",
   "paths": [
     {
       "path": "/",
@@ -33,8 +33,8 @@
       "text": "Side in Development"
     },
     "home": {
-      "title": "Home",
-      "text": "Hi, I'm Kevin Cruz, a Software Engineer specializing in Front-end, I am passionate about technology and innovation. I was a Freelance for several companies in my city (Bogotá), improving the management of the business with different solutions. Now I'm working in a company as Software Engineer, creating web components",
+      "title": "Hi! 👋, welcome to my world",
+      "text": "My Name is Kevin Cruz but I like to be called \"Kev\" or \"Farid\". I'm a Software Engineer specializing in Front-end, I'm passionate about technology and innovation. This is my personal website, where I share my knowledge and experience.",
       "buttons": {
         "cv": {
           "title": "My CV",

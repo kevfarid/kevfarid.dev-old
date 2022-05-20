@@ -10,16 +10,6 @@ export default interface IConstants {
     cv: string;
     twitter: string;
   };
-  icons: {
-    linkedin: string;
-    github: string;
-    email: string;
-    twitter: string;
-    myIcon: string;
-    menu: string;
-    close: string;
-    download: string;
-  };
   imgs: {
     heroBG: string;
     about: string;

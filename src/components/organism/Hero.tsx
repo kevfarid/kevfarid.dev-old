@@ -48,14 +48,16 @@ export default function Hero(props: HeroProps) {
             {buttons?.portfolio?.title}
           </Button>
         </ButtonGroup>
+      </HeroAboutStyles>
+      <HeroPictureStyles>
+        <MyPicture src={src} alt={title} />
         <HeroSocialMediaStyles>
           <Text variant="body">
             {lang.sections?.home.components?.socialMedia.title}
           </Text>
           <MySocialMedia />
         </HeroSocialMediaStyles>
-      </HeroAboutStyles>
-      <MyPicture src={src} alt={title} />
+      </HeroPictureStyles>
     </HeroStyles>
   );
 }
@@ -69,6 +71,13 @@ const HeroSocialMediaStyles = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
+`;
+
+const HeroPictureStyles = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 const HeroAboutStyles = styled.div`

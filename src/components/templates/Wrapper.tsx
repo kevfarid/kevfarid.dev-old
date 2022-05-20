@@ -24,13 +24,20 @@ function Wrapper({ Component, pageProps }: AppProps) {
       <Callout emojin="🏗" variant="danger" align="center">
         {lang?.sections?.buildBanner.text}
       </Callout>
-      <Header />
-      <Component {...pageProps} />
+      <main>
+        <Header />
+        <Component {...pageProps} />
+      </main>
       <Global
         styles={{
           body: {
             backgroundColor: THEME.basic.background,
             color: THEME.basic.text,
+          },
+          'main > section': {
+            margin: '0 auto',
+            marginBottom: '4rem',
+            maxWidth: THEME.breakpoints.desktop,
           },
         }}
       />

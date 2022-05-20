@@ -11,7 +11,7 @@ export default function About({ title, description }: HeroProps) {
   );
 }
 
-const HeroStyled = styled.header<StyledProps>(() => ({
+const HeroStyled = styled.div<StyledProps>(() => ({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'left',

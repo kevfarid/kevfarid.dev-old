@@ -1,12 +1,8 @@
 import ITheme from 'models/ITheme';
-import BREAKPOINTS from 'styles/breakpoints';
-import COLORS from 'styles/colors';
-import FONTS from 'styles/fonts';
+import DEFAULT_THEME from './defaultTheme';
 
 const LIGHT: ITheme = {
-  colors: COLORS,
-  fonts: FONTS,
-  breakpoints: BREAKPOINTS,
+  ...DEFAULT_THEME,
   basic: {
     background: '#f5f5f5',
     text: '#171A1F',

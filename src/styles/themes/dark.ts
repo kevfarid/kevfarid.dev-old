@@ -1,12 +1,8 @@
 import ITheme from 'models/ITheme';
-import BREAKPOINTS from 'styles/breakpoints';
-import COLORS from 'styles/colors';
-import FONTS from 'styles/fonts';
+import DEFAULT_THEME from './defaultTheme';
 
 const DARK: ITheme = {
-  colors: COLORS,
-  fonts: FONTS,
-  breakpoints: BREAKPOINTS,
+  ...DEFAULT_THEME,
   basic: {
     background: '#171A1F',
     text: '#f5f5f5',

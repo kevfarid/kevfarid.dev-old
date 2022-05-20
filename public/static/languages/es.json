@@ -47,6 +47,18 @@
           "type": "scroll"
         }
       }
+    },
+    "experience": {
+      "title": "Hablidades y Experiencia",
+      "text": "Ahora trabajo en una empresa de tecnología en Colombia, donde me encargo de desarrollar webcomponents y nuevasfuncionalidades con JavaScript Vanilla. Anteriormente estuve trabajando como Freelance para varios negocios en miciudad (Bogotá), mejorando la gestión del negocio con diferentes soluciones.",
+      "components": {
+        "skills": {
+          "title": "Habilidades principales"
+        },
+        "experience": {
+          "title": "Experiencia"
+        }
+      }
     }
   }
 }

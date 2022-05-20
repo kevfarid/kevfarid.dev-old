@@ -22,6 +22,5 @@ export default function SkillList() {
 const SkillListStyles = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
   padding: 1rem;
 `;

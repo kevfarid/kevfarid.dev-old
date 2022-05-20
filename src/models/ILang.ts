@@ -7,8 +7,7 @@ export default interface ILang {
   email: string;
   paths: IPath[];
   sections: {
-    buildBanner: ISection;
-    home: ISection;
+    [key: string]: ISection;
   };
 }
 

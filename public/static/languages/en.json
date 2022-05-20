@@ -52,6 +52,18 @@
           "title": "Check out my"
         }
       }
+    },
+    "experience": {
+      "title": "Skills and Experience",
+      "text": "I was a Freelance for several companies in my city (Bogotá), improving the management of the business with different solutions with technology such as Angular, React, NodeJS, MongoDB, SQL, and CSS pre-processors. Now I’m working in a company as Software Engineer, creating web components with JavaScript.",
+      "components": {
+        "skills": {
+          "title": "Skills"
+        },
+        "experience": {
+          "title": "Experience"
+        }
+      }
     }
   }
 }

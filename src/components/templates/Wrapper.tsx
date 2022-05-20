@@ -37,6 +37,7 @@ function Wrapper({ Component, pageProps }: AppProps) {
           'main > section': {
             margin: '0 auto',
             marginBottom: '4rem',
+            padding: '0 2rem',
             maxWidth: THEME.breakpoints.desktop,
           },
         }}

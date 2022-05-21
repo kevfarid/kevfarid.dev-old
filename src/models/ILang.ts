@@ -6,9 +6,16 @@ export default interface ILang {
   atsing: string;
   email: string;
   paths: IPath[];
+  experiences: IExperience[];
   sections: {
     [key: string]: ISection;
   };
+}
+
+export interface IExperience {
+  title: string;
+  year: string;
+  company: string;
 }
 
 interface IPath {

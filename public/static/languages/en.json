@@ -27,6 +27,23 @@
       "isSection": true
     }
   ],
+  "experiences": [
+    {
+      "title": "Software Developer",
+      "company": "BITS Americas",
+      "year": "jan 2022 - Present"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Freelance",
+      "year": "jan 2020 - Jan 2022"
+    },
+    {
+      "title": "Junior Programmer",
+      "company": "Simplexity S.A.S",
+      "year": "jul 2019 - jan 2020"
+    }
+  ],
   "sections": {
     "buildBanner": {
       "title": "BuildBanner",

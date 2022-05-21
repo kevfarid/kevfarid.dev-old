@@ -22,6 +22,7 @@ const Home: NextPage = () => {
         experienceTitle={
           lang.sections?.experience.components?.experience?.title || ''
         }
+        experiences={lang.experiences || []}
       />
     </>
   );

@@ -1,9 +1,18 @@
 import SkillList from 'components/organism/SkillList';
 import Text from 'components/atoms/Text';
 import styled from '@emotion/styled';
+import { IExperience } from 'models/ILang';
+import { ExperienceList } from 'components/organism/ExperienceList';
 
 export default function ExperienceSection(props: ExperienceSectionProps) {
-  const { section, description, title, skillTitle, experienceTitle } = props;
+  const {
+    section,
+    description,
+    title,
+    skillTitle,
+    experienceTitle,
+    experiences,
+  } = props;
 
   return (
     <ExperienceSectionStyles id={section}>
@@ -17,6 +26,7 @@ export default function ExperienceSection(props: ExperienceSectionProps) {
       </SkillStyles>
       <ExperienceStyles>
         <Text variant="h2">{experienceTitle}</Text>
+        <ExperienceList experiences={experiences} />
       </ExperienceStyles>
     </ExperienceSectionStyles>
   );
@@ -39,7 +49,7 @@ const SkillStyles = styled.div`
 `;
 
 const ExperienceStyles = styled.div`
-  grid-area: 2 / 1 / 3 / 2;
+  grid-area: 2 / 1 / 3 / 3;
 `;
 
 type ExperienceSectionProps = {
@@ -48,4 +58,5 @@ type ExperienceSectionProps = {
   skillTitle: string;
   experienceTitle: string;
   section: string;
+  experiences: IExperience[];
 };

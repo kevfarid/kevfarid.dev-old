@@ -23,6 +23,8 @@ const createStyleds = (props: TextProps) => ({
   marginBottom: props['margin-bottom'],
   marginLeft: props['margin-left'],
   marginRight: props['margin-right'],
+  fontWeight:
+    props.weight || props.theme?.fonts[props.variant || 'body']?.fontWeight,
 });
 
 const textVariant = {
@@ -55,5 +57,6 @@ type TextProps = {
   'margin-bottom'?: string;
   'margin-left'?: string;
   'margin-right'?: string;
+  weight?: number | string;
   align?: 'left' | 'center' | 'right';
 };

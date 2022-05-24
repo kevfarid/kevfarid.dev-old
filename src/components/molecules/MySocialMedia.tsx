@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
-import GitHub from 'components/atoms/icons/GitHub';
-import Linkedin from 'components/atoms/icons/Linkedin';
-import Mail from 'components/atoms/icons/Mail';
-import Twitter from 'components/atoms/icons/Twitter';
+import GitHub from 'components/icons/GitHub';
+import Linkedin from 'components/icons/Linkedin';
+import Mail from 'components/icons/Mail';
+import Twitter from 'components/icons/Twitter';
 import LinkExtenal from 'components/atoms/LinkExternal';
 import useConfig from 'hooks/useConfig';
 

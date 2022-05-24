@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
-import LangIcon from 'components/atoms/icons/Lang';
-import MyLogo from 'components/atoms/icons/MyLogo';
-import ThemeIcon from 'components/atoms/icons/Theme';
+import LangIcon from 'components/icons/Lang';
+import MyLogo from 'components/icons/MyLogo';
+import ThemeIcon from 'components/icons/Theme';
 import useConfig from 'hooks/useConfig';
 import ITheme from 'models/ITheme';
 

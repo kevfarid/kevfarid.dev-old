@@ -1,5 +1,5 @@
 import IconsProps from 'models/IconsProps';
-import WrapperIcon from './WrapperIcon';
+import WrapperIcon from '../atoms/WrapperIcon';
 
 export default function GitHub({ color, size, ...other }: IconsProps) {
   return (

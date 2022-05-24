@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import useConfig from 'hooks/useConfig';
 import ITheme from 'models/ITheme';
 
-import WrapperIcon from './WrapperIcon';
+import WrapperIcon from '../atoms/WrapperIcon';
 
 export default function ThemeIcon() {
   const { isDark, setIsDark } = useConfig();

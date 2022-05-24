@@ -1,6 +1,6 @@
 import { useTheme } from '@emotion/react';
 import styled from '@emotion/styled';
-import GitHub from 'components/atoms/icons/GitHub';
+import GitHub from 'components/icons/GitHub';
 import { Skill } from 'components/molecules/Skill';
 import ITheme from 'models/ITheme';
 

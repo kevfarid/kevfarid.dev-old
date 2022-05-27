@@ -13,7 +13,9 @@ export default function Header() {
       <MyLogo witdh={50} />
       <NavStyled>
         {lang.paths?.map((path) => (
-          <NavItem key={path.path}>{path.title}</NavItem>
+          <NavItem key={path.path} href={path.path}>
+            {path.title}
+          </NavItem>
         ))}
       </NavStyled>
       <ActionsStyled>

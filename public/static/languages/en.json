@@ -7,17 +7,17 @@
   "email": "kevfaridc@gmail.com",
   "paths": [
     {
-      "path": "/",
-      "title": "Home",
+      "path": "#about",
+      "title": "About",
       "isSection": false
     },
     {
-      "path": "/about",
-      "title": "About",
+      "path": "#skills",
+      "title": "Skills",
       "isSection": true
     },
     {
-      "path": "/projects",
+      "path": "#projects",
       "title": "Projects",
       "isSection": true
     },

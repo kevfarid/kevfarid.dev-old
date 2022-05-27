@@ -7,13 +7,13 @@
   "email": "hi@kevfarid.dev",
   "paths": [
     {
-      "path": "/",
-      "title": "Inicio",
+      "path": "#about",
+      "title": "Sobre mi",
       "isSection": false
     },
     {
-      "path": "/about",
-      "title": "Sobre mi",
+      "path": "#skills",
+      "title": "Habilidades",
       "isSection": true
     },
     {

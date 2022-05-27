@@ -12,10 +12,10 @@ const Home: NextPage = () => {
         title={lang.sections?.home?.title}
         description={lang.sections?.home?.text}
         image={constants.avatar}
-        section="home"
+        section="about"
       />
       <ExperienceSection
-        section="experience"
+        section="skills"
         title={lang.sections?.experience?.title}
         description={lang.sections?.experience?.text}
         skillTitle={lang.sections?.experience.components?.skills?.title || ''}

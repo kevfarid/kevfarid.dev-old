@@ -3,6 +3,7 @@ import Text from 'components/atoms/Text';
 import styled from '@emotion/styled';
 import { IExperience } from 'models/ILang';
 import { ExperienceList } from 'components/organism/ExperienceList';
+import ITheme from 'models/ITheme';
 
 export default function ExperienceSection(props: ExperienceSectionProps) {
   const {
@@ -37,6 +38,10 @@ const ExperienceSectionStyles = styled.section`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 1.3fr;
   grid-column-gap: 5rem;
+  @media (max-width: ${({ theme }: StyleProps) => theme?.breakpoints.mobile}) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 3fr);
+  }
 `;
 
 const TitleStyles = styled.div`
@@ -46,11 +51,21 @@ const TitleStyles = styled.div`
 const SkillStyles = styled.div`
   padding-top: 1rem;
   grid-area: 1 / 2 / 3 / 3;
+  @media (max-width: ${({ theme }: StyleProps) => theme?.breakpoints.mobile}) {
+    grid-area: 2 / 1 / 3 / 2;
+  }
 `;
 
 const ExperienceStyles = styled.div`
   grid-area: 2 / 1 / 3 / 3;
+  @media (max-width: ${({ theme }: StyleProps) => theme?.breakpoints.mobile}) {
+    grid-area: 3 / 1 / 4 / 2;
+  }
 `;
+
+type StyleProps = {
+  theme?: ITheme;
+};
 
 type ExperienceSectionProps = {
   title: string;

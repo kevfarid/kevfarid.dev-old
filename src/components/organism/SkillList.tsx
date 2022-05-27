@@ -1,20 +1,18 @@
-import { useTheme } from '@emotion/react';
 import styled from '@emotion/styled';
-import GitHub from 'components/icons/GitHub';
-import { Skill } from 'components/molecules/Skill';
-import ITheme from 'models/ITheme';
+import useConfig from 'hooks/useConfig';
+import Skill from 'components/molecules/Skill';
 
 export default function SkillList() {
-  const { basic } = useTheme() as ITheme;
-
+  const { constants } = useConfig();
   return (
     <SkillListStyles>
-      <Skill icon={<GitHub color={basic?.background} />} name="React" />
-      <Skill icon={<GitHub color={basic?.background} />} name="JavaScript" />
-      <Skill icon={<GitHub color={basic?.background} />} name="TypeScript" />
-      <Skill icon={<GitHub color={basic?.background} />} name="Nodejs" />
-      <Skill icon={<GitHub color={basic?.background} />} name="Git" />
-      <Skill icon={<GitHub color={basic?.background} />} name="Angular" />
+      {Object.keys(constants.skills).map((key) => (
+        <Skill
+          key={key}
+          icon={constants.skills[key].icon}
+          name={constants.skills[key].name}
+        />
+      ))}
     </SkillListStyles>
   );
 }

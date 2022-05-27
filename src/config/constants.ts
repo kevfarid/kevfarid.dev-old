@@ -12,6 +12,32 @@ const constants: IConstants = {
     cv: '/cv-kevin-farid-cruz.pdf',
     twitter: 'https://twitter.com/KevFarid_',
   },
+  skills: {
+    react: {
+      icon: 'https://img.icons8.com/ios-glyphs/60/171A1F/react.png',
+      name: 'React',
+    },
+    javascript: {
+      icon: 'https://img.icons8.com/ios-glyphs/60/171A1F/javascript.png',
+      name: 'JavaScript',
+    },
+    typescript: {
+      icon: 'https://img.icons8.com/material-rounded/60/171A1F/typescript.png',
+      name: 'TypeScript',
+    },
+    linux: {
+      icon: 'https://img.icons8.com/ios-filled/50/171A1F/linux.png',
+      name: 'Linux',
+    },
+    git: {
+      icon: 'https://img.icons8.com/ios-filled/50/171A1F/git.png',
+      name: 'Git',
+    },
+    angular: {
+      icon: 'https://img.icons8.com/ios-filled/50/171A1F/angularjs.png',
+      name: 'Angular',
+    },
+  },
   imgs: {
     heroBG: '/heroBG.jpeg',
     about: 'https://i.imgur.com/K0VY5gf.png',

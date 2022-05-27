@@ -10,10 +10,12 @@ export default interface IConstants {
     cv: string;
     twitter: string;
   };
-  skills: {
+  skills: string[];
+  technologies: {
     [key: string]: {
       icon: string;
       name: string;
+      key: string;
     };
   };
   imgs: {

@@ -2,15 +2,20 @@ import styled from '@emotion/styled';
 import useConfig from 'hooks/useConfig';
 import Skill from 'components/molecules/Skill';
 
-export default function SkillList() {
+export default function SkillList({ skills }: { skills: string[] }) {
   const { constants } = useConfig();
+
+  const technologies = Object.values(constants.technologies).filter(
+    (technology) => skills?.includes(technology.key)
+  );
+
   return (
     <SkillListStyles>
-      {Object.keys(constants.skills).map((key) => (
+      {technologies.map((technology) => (
         <Skill
-          key={key}
-          icon={constants.skills[key].icon}
-          name={constants.skills[key].name}
+          key={technology.key}
+          icon={technology.icon}
+          name={technology.name}
         />
       ))}
     </SkillListStyles>

@@ -13,6 +13,7 @@ export default function ExperienceSection(props: ExperienceSectionProps) {
     skillTitle,
     experienceTitle,
     experiences,
+    skills,
   } = props;
 
   return (
@@ -23,7 +24,7 @@ export default function ExperienceSection(props: ExperienceSectionProps) {
       </TitleStyles>
       <SkillStyles>
         <Text variant="h2">{skillTitle}</Text>
-        <SkillList />
+        <SkillList skills={skills} />
       </SkillStyles>
       <ExperienceStyles>
         <Text variant="h2">{experienceTitle}</Text>
@@ -74,4 +75,5 @@ type ExperienceSectionProps = {
   experienceTitle: string;
   section: string;
   experiences: IExperience[];
+  skills: string[];
 };

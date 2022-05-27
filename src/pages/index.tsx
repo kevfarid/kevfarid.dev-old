@@ -15,6 +15,7 @@ const Home: NextPage = () => {
         section="about"
       />
       <ExperienceSection
+        skills={constants.skills}
         section="skills"
         title={lang.sections?.experience?.title}
         description={lang.sections?.experience?.text}

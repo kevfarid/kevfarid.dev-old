@@ -8,6 +8,7 @@ import MyPicture from 'components/molecules/MyPicture';
 import MySocialMedia from 'components/molecules/MySocialMedia';
 import Text from 'components/atoms/Text';
 import useConfig from 'hooks/useConfig';
+import ITheme from 'models/ITheme';
 
 export default function Hero(props: HeroProps) {
   const { title, description, src, section } = props;
@@ -65,6 +66,10 @@ export default function Hero(props: HeroProps) {
 const HeroStyles = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  @media (max-width: ${({ theme }: StyleProps) => theme?.breakpoints.mobile}) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 `;
 
 const HeroSocialMediaStyles = styled.div`
@@ -92,4 +97,8 @@ type HeroProps = {
   description: string;
   src: string;
   section: string;
+};
+
+type StyleProps = {
+  theme?: ITheme;
 };

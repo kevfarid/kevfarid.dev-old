@@ -14,17 +14,12 @@ function Wrapper({ Component, pageProps }: AppProps) {
 
   const [THEME, setTheme] = React.useState<ITheme>(isDark ? DARK : LIGHT);
 
-  const { lang } = useConfig();
-
   useEffect(() => {
     setTheme(isDark ? DARK : LIGHT);
   }, [isDark]);
 
   return (
     <ThemeProvider theme={THEME}>
-      <Callout emojin="🏗" variant="danger" align="center">
-        {lang?.sections?.buildBanner.text}
-      </Callout>
       <Header />
       <main>
         <Component {...pageProps} />

@@ -17,13 +17,8 @@
       "isSection": true
     },
     {
-      "path": "#projects",
+      "path": "#porfolio",
       "title": "Projects",
-      "isSection": true
-    },
-    {
-      "path": "/contact",
-      "title": "Contact",
       "isSection": true
     }
   ],
@@ -108,13 +103,17 @@
         }
       }
     },
-    "project": {
-      "title": "Projects",
-      "text": "",
+    "portfolio": {
+      "title": "Portfolio",
+      "text": "These are some projects, where I share my knowledge and experience.",
       "buttons": {
         "url": "Demo",
         "repo": "Repo"
       }
+    },
+    "footer": {
+      "title": "",
+      "text": "Maked with 🖤 by Kevin Farid Cruz"
     }
   }
 }

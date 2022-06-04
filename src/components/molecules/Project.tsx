@@ -38,11 +38,11 @@ export default function Project(props: IProject) {
           </Info>
           <ButtonGroup>
             <Button href={url} target="_blank" variant="primary">
-              {lang.sections?.project?.buttons?.url}
+              {lang.sections?.portfolio?.buttons?.url}
             </Button>
             {!isPrivate && (
               <Button href={repo} target="_blank" variant="primary">
-                {lang.sections?.project?.buttons?.repo}
+                {lang.sections?.portfolio?.buttons?.repo}
               </Button>
             )}
           </ButtonGroup>

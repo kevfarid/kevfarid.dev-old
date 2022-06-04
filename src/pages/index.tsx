@@ -27,9 +27,9 @@ const Home: NextPage = () => {
         experiences={lang.experiences || []}
       />
       <ProjectSection
-        section="projects"
-        title={lang.sections?.projects?.title}
-        description={lang.sections?.projects?.text}
+        section="portfolio"
+        title={lang.sections?.portfolio?.title}
+        description={lang.sections?.portfolio?.text}
         projects={lang?.projects || []}
       />
     </>

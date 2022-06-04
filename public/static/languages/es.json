@@ -17,24 +17,35 @@
       "isSection": true
     },
     {
-      "path": "/projects",
+      "path": "#porfolio",
       "title": "Proyectos",
-      "isSection": true
-    },
-    {
-      "path": "/contact",
-      "title": "Contacto",
       "isSection": true
     }
   ],
   "projects": [
     {
-      "title": "Todoist",
-      "img": "/static/img/todoist.png",
+      "title": "Mi Portfolio",
+      "img": "/static/images/portfolio.jpg",
       "isPrivate": false,
-      "url": "https://todoist.com/",
-      "repo": "",
-      "tecnologies": ["react", "typescript", "styled-components"]
+      "url": "https://www.kevfarid.dev/",
+      "repo": "https://github.com/kevfarid/kevfarid.dev",
+      "technologies": ["react", "typescript", "emotion"]
+    },
+    {
+      "title": "Platzily UI",
+      "img": "/static/images/platzily.jpg",
+      "isprivate": false,
+      "url": "https://platzily.github.io/platzily-ui/",
+      "repo": "https://github.com/platzily/platzily-ui",
+      "technologies": ["react"]
+    },
+    {
+      "title": "GetHired",
+      "img": "/static/images/gethired.jpg",
+      "isprivate": false,
+      "url": "https://get-hired.work/",
+      "repo": "https://github.com/Platzi-Master-C8/gethired-jobplacement-salaries-frontend",
+      "technologies": ["react", "redux", "styled-components"]
     }
   ],
   "experiences": [
@@ -92,13 +103,17 @@
         }
       }
     },
-    "project": {
-      "title": "Proyectos",
-      "text": "",
+    "portfolio": {
+      "title": "Portafolio",
+      "text": "Estos son algunos proyectos, donde comparto mi conocimiento y experiencia.",
       "buttons": {
         "url": "Demo",
         "repo": "Código"
       }
+    },
+    "footer": {
+      "title": "",
+      "text": "Creado con 🖤 por Kevin Farid Cruz"
     }
   }
 }

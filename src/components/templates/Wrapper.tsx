@@ -1,6 +1,7 @@
 import { Global, ThemeProvider } from '@emotion/react';
 import Callout from 'components/atoms/Callout';
 import Header from 'components/molecules/Header';
+import Footer from 'components/organism/Footer';
 import useConfig from 'hooks/useConfig';
 import ITheme from 'models/ITheme';
 import type { AppProps } from 'next/app';
@@ -24,10 +25,11 @@ function Wrapper({ Component, pageProps }: AppProps) {
       <Callout emojin="🏗" variant="danger" align="center">
         {lang?.sections?.buildBanner.text}
       </Callout>
+      <Header />
       <main>
-        <Header />
         <Component {...pageProps} />
       </main>
+      <Footer />
       <Global
         styles={{
           body: {
@@ -36,7 +38,7 @@ function Wrapper({ Component, pageProps }: AppProps) {
           },
           'main > section': {
             margin: '0 auto',
-            marginBottom: '4rem',
+            marginBottom: '6rem',
             padding: '0 2rem',
             maxWidth: THEME.breakpoints.desktop,
           },

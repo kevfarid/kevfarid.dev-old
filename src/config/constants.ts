@@ -1,4 +1,5 @@
 import IConstants from 'models/IConstansts';
+import technologies from './technologies';
 
 const constants: IConstants = {
   title: 'Kevin Farid Cruz',
@@ -13,38 +14,7 @@ const constants: IConstants = {
     twitter: 'https://twitter.com/KevFarid_',
   },
   skills: ['javascript', 'typescript', 'react', 'linux', 'git', 'angular'],
-  technologies: {
-    react: {
-      icon: 'https://img.icons8.com/ios-glyphs/60/171A1F/react.png',
-      name: 'React',
-      key: 'react',
-    },
-    javascript: {
-      icon: 'https://img.icons8.com/ios-glyphs/60/171A1F/javascript.png',
-      name: 'JavaScript',
-      key: 'javascript',
-    },
-    typescript: {
-      icon: 'https://img.icons8.com/material-rounded/60/171A1F/typescript.png',
-      name: 'TypeScript',
-      key: 'typescript',
-    },
-    linux: {
-      icon: 'https://img.icons8.com/ios-filled/50/171A1F/linux.png',
-      name: 'Linux',
-      key: 'linux',
-    },
-    git: {
-      icon: 'https://img.icons8.com/ios-filled/50/171A1F/git.png',
-      name: 'Git',
-      key: 'git',
-    },
-    angular: {
-      icon: 'https://img.icons8.com/ios-filled/50/171A1F/angularjs.png',
-      name: 'Angular',
-      key: 'angular',
-    },
-  },
+  technologies,
   imgs: {
     heroBG: '/heroBG.jpeg',
     about: 'https://i.imgur.com/K0VY5gf.png',

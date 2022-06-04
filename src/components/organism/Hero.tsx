@@ -17,32 +17,22 @@ export default function Hero(props: HeroProps) {
 
   const buttons = lang.sections?.home?.buttons;
 
-  const handleClick = (path: string, type: string) => {
-    if (type === 'download') {
-      return window.open(path, '_blank');
-    }
-
-    return (window.location.href = path);
-  };
-
   return (
     <HeroStyles id={section}>
       <HeroAboutStyles>
         <About title={title} description={description} />
         <ButtonGroup>
           <Button
-            onClick={() => {
-              handleClick(buttons.cv.url, buttons.cv?.type);
-            }}
+            href={buttons?.cv?.url}
+            target="_blank"
             variant="primary"
+            download="cv-kevin-cruz"
             icon={<PaperPlane color="#fff" />}
           >
             {buttons?.cv?.title}
           </Button>
           <Button
-            onClick={() => {
-              handleClick(buttons.portfolio?.url, buttons.portfolio?.type);
-            }}
+            href={buttons?.portfolio?.url}
             variant="secondary"
             icon={<Arrow />}
           >

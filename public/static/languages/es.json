@@ -27,6 +27,16 @@
       "isSection": true
     }
   ],
+  "projects": [
+    {
+      "title": "Todoist",
+      "img": "/static/img/todoist.png",
+      "isPrivate": false,
+      "url": "https://todoist.com/",
+      "repo": "",
+      "tecnologies": ["react", "typescript", "styled-components"]
+    }
+  ],
   "experiences": [
     {
       "title": "Desarrollador Software",
@@ -80,6 +90,14 @@
         "experience": {
           "title": "Experiencia"
         }
+      }
+    },
+    "project": {
+      "title": "Proyectos",
+      "text": "",
+      "buttons": {
+        "url": "Demo",
+        "repo": "Código"
       }
     }
   }

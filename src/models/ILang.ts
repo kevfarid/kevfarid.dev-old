@@ -6,10 +6,20 @@ export default interface ILang {
   atsing: string;
   email: string;
   paths: IPath[];
+  projects: IProject[];
   experiences: IExperience[];
   sections: {
     [key: string]: ISection;
   };
+}
+
+export interface IProject {
+  title: string;
+  img: string;
+  isPrivate: boolean;
+  url: string;
+  repo: string;
+  technologies: string[];
 }
 
 export interface IExperience {

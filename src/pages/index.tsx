@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import HomeSection from 'components/templates/HomeSection';
 import useConfig from 'hooks/useConfig';
 import ExperienceSection from 'components/templates/ExperienceSection';
+import ProjectSection from 'components/templates/ProjectSection';
 
 const Home: NextPage = () => {
   const { lang, constants } = useConfig();
@@ -24,6 +25,12 @@ const Home: NextPage = () => {
           lang.sections?.experience.components?.experience?.title || ''
         }
         experiences={lang.experiences || []}
+      />
+      <ProjectSection
+        section="projects"
+        title={lang.sections?.projects?.title}
+        description={lang.sections?.projects?.text}
+        projects={lang?.projects || []}
       />
     </>
   );

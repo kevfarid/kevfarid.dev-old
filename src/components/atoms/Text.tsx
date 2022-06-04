@@ -4,7 +4,7 @@ import ITheme from 'models/ITheme';
 import React from 'react';
 
 export default function Title(props: TextProps) {
-  const { children, align, variant, color, ...otherProps } = props;
+  const { children, align, variant, color = 'text', ...otherProps } = props;
 
   const Component = textVariant[variant || 'body'] || textVariant.body;
 
@@ -17,7 +17,10 @@ export default function Title(props: TextProps) {
 
 const createStyleds = (props: TextProps) => ({
   textAlign: props.align || 'left',
-  color: props.color || props.theme?.basic.text,
+  color:
+    props.color === 'text' || props.color === 'background'
+      ? props.theme?.basic[props.color]
+      : props.theme?.colors[props.color || 'primary'],
   ...props.theme?.fonts[props.variant || 'body'],
   marginTop: props['margin-top'],
   marginBottom: props['margin-bottom'],

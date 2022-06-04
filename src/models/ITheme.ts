@@ -8,6 +8,7 @@ export default interface ITheme {
   breakpoints: IBreakPoints;
   basic: {
     background: string;
+    backgroundSecondary: string;
     text: string;
   };
 }

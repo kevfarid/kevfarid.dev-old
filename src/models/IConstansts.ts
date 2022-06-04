@@ -11,13 +11,7 @@ export default interface IConstants {
     twitter: string;
   };
   skills: string[];
-  technologies: {
-    [key: string]: {
-      icon: string;
-      name: string;
-      key: string;
-    };
-  };
+  technologies: ITechnologies;
   imgs: {
     heroBG: string;
     about: string;
@@ -30,5 +24,14 @@ export default interface IConstants {
   default: {
     theme: string;
     language: string;
+  };
+}
+
+export interface ITechnologies {
+  [key: string]: {
+    icon: string;
+    name: string;
+    key: string;
+    uniColor?: boolean;
   };
 }

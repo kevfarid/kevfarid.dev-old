@@ -1,5 +1,4 @@
 import { Global, ThemeProvider } from '@emotion/react';
-import Callout from 'components/atoms/Callout';
 import Header from 'components/molecules/Header';
 import Footer from 'components/organism/Footer';
 import useConfig from 'hooks/useConfig';

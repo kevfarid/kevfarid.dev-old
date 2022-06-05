@@ -1,0 +1,119 @@
+{
+  "title": "Kevin Farid Cruz",
+  "subtitle": "Software Engineer",
+  "description": "I'm a Software Engineer specializing in Front-end, I am passionate about technology and innovation. I was a Freelance for several companies in my city (Bogotá), improving the management of the business with different solutions. Now I'm working in a company as Software Engineer, creating web components",
+  "nickname": "kevfarid",
+  "atsign": "@KevFarid",
+  "email": "kevfaridc@gmail.com",
+  "paths": [
+    {
+      "path": "#about",
+      "title": "About",
+      "isSection": false
+    },
+    {
+      "path": "#skills",
+      "title": "Skills",
+      "isSection": true
+    },
+    {
+      "path": "#porfolio",
+      "title": "Projects",
+      "isSection": true
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Software Developer",
+      "company": "BITS Americas",
+      "year": "jan 2022 - Present"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Freelance",
+      "year": "jan 2020 - Jan 2022"
+    },
+    {
+      "title": "Junior Programmer",
+      "company": "Simplexity S.A.S",
+      "year": "jul 2019 - jan 2020"
+    }
+  ],
+  "projects": [
+    {
+      "title": "My Portfolio",
+      "img": "/static/images/portfolio.jpg",
+      "isPrivate": false,
+      "url": "https://www.kevfarid.dev/",
+      "repo": "https://github.com/kevfarid/kevfarid.dev",
+      "technologies": ["react", "typescript", "emotion"]
+    },
+    {
+      "title": "Platzily UI",
+      "img": "/static/images/platzily.jpg",
+      "isprivate": false,
+      "url": "https://platzily.github.io/platzily-ui/",
+      "repo": "https://github.com/platzily/platzily-ui",
+      "technologies": ["react"]
+    },
+    {
+      "title": "GetHired",
+      "img": "/static/images/gethired.jpg",
+      "isprivate": false,
+      "url": "https://get-hired.work/",
+      "repo": "https://github.com/Platzi-Master-C8/gethired-jobplacement-salaries-frontend",
+      "technologies": ["react", "redux", "styled-components"]
+    }
+  ],
+  "sections": {
+    "buildBanner": {
+      "title": "BuildBanner",
+      "text": "Side in Development"
+    },
+    "home": {
+      "title": "Hi! 👋, welcome to my world",
+      "text": "My Name is Kevin Cruz but I like to be called \"Kev\" or \"Farid\". I'm a Software Engineer specializing in Front-end, I'm passionate about technology and innovation. This is my personal website, where I share my knowledge and experience.",
+      "buttons": {
+        "cv": {
+          "title": "My CV",
+          "url": "/docs/cv-kevin-cruz.pdf",
+          "type": "download"
+        },
+        "portfolio": {
+          "title": "Portfolio",
+          "url": "#portfolio",
+          "type": "scroll"
+        }
+      },
+      "components": {
+        "socialMedia": {
+          "title": "Check out my"
+        }
+      }
+    },
+    "experience": {
+      "title": "Skills and Experience",
+      "text": "I was a Freelance for several companies in my city (Bogotá), improving the management of the business with different solutions with technology such as Angular, React, NodeJS, MongoDB, SQL, and CSS pre-processors. Now I’m working in a company as Software Engineer, creating web components with JavaScript.",
+      "components": {
+        "skills": {
+          "title": "Skills"
+        },
+        "experience": {
+          "title": "Experience"
+        }
+      }
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "text": "These are some projects, where I share my knowledge and experience.",
+      "buttons": {
+        "url": "Demo",
+        "repo": "Repo"
+      }
+    },
+    "footer": {
+      "title": "",
+      "text": "Maked with 🖤 by Kevin Farid Cruz"
+    }
+  }
+}

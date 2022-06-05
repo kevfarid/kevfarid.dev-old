@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { ColorsVariant } from 'models/IColors';
 import ITheme from 'models/ITheme';
 
 export default function Callout(props: CalloutProps) {
@@ -25,7 +26,7 @@ const CalloutStyled = styled.div`
 type CalloutProps = {
   children: React.ReactNode;
   emojin: string;
-  variant?: 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info';
+  variant?: ColorsVariant;
   theme?: ITheme;
   align?: 'left' | 'center' | 'right';
 };

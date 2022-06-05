@@ -1,0 +1,119 @@
+{
+  "title": "Kevin Farid Cruz",
+  "subtitle": "Software Engineer",
+  "description": "Soy Software Engineer, apasionado por la tecnología y la programación. Me apasiona la tecnologia y la innovación. Estuve trabajando como Freelance para varias negocios en mi ciudad (Bogota), mejorando la gestion del negocio con diferentes soluciones. Ahora trabajo en una empresa de tecnologia en Colombia, donde me encargo de desarrollar webcomponents",
+  "nickname": "kevfarid",
+  "atsign": "@KevFarid",
+  "email": "hi@kevfarid.dev",
+  "paths": [
+    {
+      "path": "#about",
+      "title": "Sobre mi",
+      "isSection": false
+    },
+    {
+      "path": "#skills",
+      "title": "Habilidades",
+      "isSection": true
+    },
+    {
+      "path": "#porfolio",
+      "title": "Proyectos",
+      "isSection": true
+    }
+  ],
+  "projects": [
+    {
+      "title": "Mi Portfolio",
+      "img": "/static/images/portfolio.jpg",
+      "isPrivate": false,
+      "url": "https://www.kevfarid.dev/",
+      "repo": "https://github.com/kevfarid/kevfarid.dev",
+      "technologies": ["react", "typescript", "emotion"]
+    },
+    {
+      "title": "Platzily UI",
+      "img": "/static/images/platzily.jpg",
+      "isprivate": false,
+      "url": "https://platzily.github.io/platzily-ui/",
+      "repo": "https://github.com/platzily/platzily-ui",
+      "technologies": ["react"]
+    },
+    {
+      "title": "GetHired",
+      "img": "/static/images/gethired.jpg",
+      "isprivate": false,
+      "url": "https://get-hired.work/",
+      "repo": "https://github.com/Platzi-Master-C8/gethired-jobplacement-salaries-frontend",
+      "technologies": ["react", "redux", "styled-components"]
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Desarrollador Software",
+      "company": "BITS Americas",
+      "year": "Ene 2022 - Presente"
+    },
+    {
+      "title": "Desarrollador Full Stack",
+      "company": "Freelance",
+      "year": "Ene 2020 - Ene 2022"
+    },
+    {
+      "title": "Programador Junior",
+      "company": "Simplexity S.A.S",
+      "year": "jul 2019 - ene 2020"
+    }
+  ],
+  "sections": {
+    "buildBanner": {
+      "title": "BuildBanner",
+      "text": "Sitio en desarrollo"
+    },
+    "home": {
+      "title": "¡Hola! 👋, bienvenido a mi mundo",
+      "text": "Mi nombre es Kevin Cruz pero me gusta que me llamen \"Kev\" o \"Farid\". Soy Ingeniero de Software especializado en el Front-end, me apasiona la tecnología y la innovación. Este es mi sitio web personal, donde comparto mi conocimiento y experiencia.",
+      "buttons": {
+        "cv": {
+          "title": "Mi CV",
+          "url": "docs/cv-kevin-cruz.pdf",
+          "type": "download"
+        },
+        "portfolio": {
+          "title": "Portafolio",
+          "url": "#portfolio",
+          "type": "scroll"
+        }
+      },
+      "components": {
+        "socialMedia": {
+          "title": "Mira mi"
+        }
+      }
+    },
+    "experience": {
+      "title": "Hablidades y Experiencia",
+      "text": "Ahora trabajo en una empresa de tecnología en Colombia, donde me encargo de desarrollar webcomponents y nuevasfuncionalidades con JavaScript Vanilla. Anteriormente estuve trabajando como Freelance para varios negocios en miciudad (Bogotá), mejorando la gestión del negocio con diferentes soluciones.",
+      "components": {
+        "skills": {
+          "title": "Habilidades principales"
+        },
+        "experience": {
+          "title": "Experiencia"
+        }
+      }
+    },
+    "portfolio": {
+      "title": "Portafolio",
+      "text": "Estos son algunos proyectos, donde comparto mi conocimiento y experiencia.",
+      "buttons": {
+        "url": "Demo",
+        "repo": "Código"
+      }
+    },
+    "footer": {
+      "title": "",
+      "text": "Creado con 🖤 por Kevin Farid Cruz"
+    }
+  }
+}

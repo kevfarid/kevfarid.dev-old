@@ -1,14 +1,14 @@
+import IBreakPoints from './IBreakPoints';
+import IColors from './IColors';
+import IFonts from './IFont';
+
 export default interface ITheme {
-  colors: {
-    primary: string;
-    secondary: string;
-    success: string;
-    danger: string;
-    warning: string;
-    info: string;
-    light: string;
-    dark: string;
+  colors: IColors;
+  fonts: IFonts;
+  breakpoints: IBreakPoints;
+  basic: {
     background: string;
+    backgroundSecondary: string;
     text: string;
   };
 }

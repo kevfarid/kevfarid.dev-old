@@ -1,4 +1,5 @@
 import { Global, ThemeProvider } from '@emotion/react';
+import SEO from 'components/generics/SEO';
 import Header from 'components/molecules/Header';
 import Footer from 'components/organism/Footer';
 import useConfig from 'hooks/useConfig';
@@ -19,6 +20,7 @@ function Wrapper({ Component, pageProps }: AppProps) {
 
   return (
     <ThemeProvider theme={THEME}>
+      <SEO />
       <Header />
       <main>
         <Component {...pageProps} />

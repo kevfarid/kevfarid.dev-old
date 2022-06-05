@@ -6,6 +6,7 @@ const constants: IConstants = {
   description: 'Software Engineer',
   nickname: 'KevFarid',
   avatar: '/static/images/me.png',
+  url: 'https://kevfarid.dev',
   profilesUrls: {
     linkedin: 'https://www.linkedin.com/in/kevfarid/',
     github: 'https://github.com/kevfarid',

@@ -3,6 +3,7 @@ export default interface IConstants {
   description: string;
   nickname: string;
   avatar: string;
+  url: string;
   profilesUrls: {
     linkedin: string;
     github: string;

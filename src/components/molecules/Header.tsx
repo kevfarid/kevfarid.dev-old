@@ -28,10 +28,15 @@ export default function Header() {
 
 const HeaderStyled = styled.header`
   display: flex;
-  padding: 1rem;
+  padding: 0.5rem;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
 `;
 
 const NavStyled = styled.nav`

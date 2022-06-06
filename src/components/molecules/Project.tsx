@@ -60,6 +60,13 @@ const Card = styled.div`
   align-items: center;
   grid-gap: 1rem;
   padding: 1rem;
+  @media (max-width: ${({ theme }: StyleProps) => theme?.breakpoints.mobile}) {
+    grid-template-columns: 1fr;
+    grid-gap: 0.2rem;
+    & > img {
+      width: 100%;
+    }
+  }
 `;
 
 const Stack = styled.div<{ isDark?: boolean; uniColor?: boolean }>`

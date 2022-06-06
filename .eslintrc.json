@@ -27,6 +27,7 @@
         "ignoreMemberSort": false,
         "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
       }
-    ]
+    ],
+    "react-hooks/rules-of-hooks": "off"
   }
 }

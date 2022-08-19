@@ -24,9 +24,14 @@
   ],
   "experiences": [
     {
-      "title": "Software Developer",
+      "title": "Senior Frontend Developer",
+      "company": "Mango Soft Inc",
+      "year": "Jul 2022 - Present"
+    },
+    {
+      "title": "Ssr Software Developer",
       "company": "BITS Americas",
-      "year": "jan 2022 - Present"
+      "year": "jan 2022 - Jun 2022"
     },
     {
       "title": "Full Stack Developer",

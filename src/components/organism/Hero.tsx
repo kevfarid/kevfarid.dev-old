@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import Button from 'components/atoms/Button';
 import Arrow from 'components/icons/Arrow';
+import PaperPlane from 'components/icons/PaperPlane';
 import About from 'components/molecules/About';
 import ButtonGroup from 'components/molecules/ButtonGroup';
 import MyPicture from 'components/molecules/MyPicture';
@@ -22,9 +23,18 @@ export default function Hero(props: HeroProps) {
         <About title={title} description={description} />
         <ButtonGroup>
           <Button
-            href={buttons?.portfolio?.url}
+            href={buttons?.cv?.url}
+            target="_blank"
             variant="primary"
-            icon={<Arrow color="currentColor" />}
+            download="cv-kevin-cruz"
+            icon={<PaperPlane color="#fff" />}
+          >
+            {buttons?.cv?.title}
+          </Button>
+          <Button
+            href={buttons?.portfolio?.url}
+            variant="secondary"
+            icon={<Arrow />}
           >
             {buttons?.portfolio?.title}
           </Button>

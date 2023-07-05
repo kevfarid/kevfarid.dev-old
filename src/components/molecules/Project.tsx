@@ -58,7 +58,7 @@ const Card = styled.div`
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: center;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
   padding: 1rem;
   @media (max-width: ${({ theme }: StyleProps) => theme?.breakpoints.mobile}) {
     grid-template-columns: 1fr;
@@ -73,6 +73,7 @@ const Stack = styled.div<{ isDark?: boolean; uniColor?: boolean }>`
   display: flex;
   justify-content: left;
   align-items: center;
+  gap: 0.5rem;
   & img {
     filter: invert(
       ${(props) => {
@@ -87,7 +88,7 @@ const Stack = styled.div<{ isDark?: boolean; uniColor?: boolean }>`
 
 const Stacks = styled(Stack)`
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 1rem;
 `;
 
 const Content = styled.div`
@@ -103,7 +104,8 @@ const Info = styled.div`
 
 const Image = styled.img`
   object-fit: cover;
-  width: 80%;
+  aspect-ratio: 16/9;
+  width: 85%;
   height: 80%;
 `;
 

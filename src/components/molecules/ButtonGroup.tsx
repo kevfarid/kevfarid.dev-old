@@ -15,7 +15,7 @@ const ButtonGroupStyled = styled.div<ButtonGroupProps>(({ gap }) => ({
   display: 'flex',
   gap: gap || '0.5rem',
   alignItems: 'center',
-  justifyContent: 'center',
+  justifyContent: 'flex-start',
 }));
 
 type ButtonGroupProps = {

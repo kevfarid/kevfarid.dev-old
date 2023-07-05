@@ -24,6 +24,13 @@
   ],
   "projects": [
     {
+      "title": "TopCars",
+      "img": "/static/images/topcars.png",
+      "isPrivate": true,
+      "url": "https://topcars.io/",
+      "technologies": ["react", "typescript", "tailwindcss"]
+    },
+    {
       "title": "Mi Portfolio",
       "img": "/static/images/portfolio.jpg",
       "isPrivate": false,
@@ -50,9 +57,19 @@
   ],
   "experiences": [
     {
-      "title": "Desarrollador Software",
+      "title": "Desarrollador Frontend",
+      "company": "SPOT",
+      "year": "May 2021 - Presente"
+    },
+    {
+      "title": "Desarrollador Frontend Senior",
+      "company": "Mango Soft Inc",
+      "year": "Jul 2022 - Presente"
+    },
+    {
+      "title": "Desarrollador de Software SemiSenior",
       "company": "BITS Americas",
-      "year": "Ene 2022 - Presente"
+      "year": "Ene 2022 - Jun 2022"
     },
     {
       "title": "Desarrollador Full Stack",
@@ -107,7 +124,7 @@
       "title": "Portafolio",
       "text": "Estos son algunos proyectos, donde comparto mi conocimiento y experiencia.",
       "buttons": {
-        "url": "Demo",
+        "url": "Ver",
         "repo": "Código"
       }
     },

@@ -55,6 +55,12 @@ const technologies: ITechnologies = {
     key: 'redux',
     uniColor: true,
   },
+  tailwindcss: {
+    icon: '/static/images/tailwindcss.svg',
+    name: 'Tailwind CSS',
+    key: 'tailwindcss',
+    uniColor: false,
+  },
 };
 
 export default technologies;

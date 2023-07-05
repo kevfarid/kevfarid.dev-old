@@ -24,9 +24,19 @@
   ],
   "experiences": [
     {
-      "title": "Software Developer",
+      "title": "Frontend Developer",
+      "company": "SPOT",
+      "year": "May 2023 - Present"
+    },
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Mango Soft Inc",
+      "year": "Jul 2022 - Jan 2023"
+    },
+    {
+      "title": "Ssr Software Developer",
       "company": "BITS Americas",
-      "year": "jan 2022 - Present"
+      "year": "jan 2022 - Jun 2022"
     },
     {
       "title": "Full Stack Developer",
@@ -40,6 +50,13 @@
     }
   ],
   "projects": [
+    {
+      "title": "TopCars",
+      "img": "/static/images/topcars.png",
+      "isPrivate": true,
+      "url": "https://topcars.io/",
+      "technologies": ["react", "typescript", "tailwindcss"]
+    },
     {
       "title": "My Portfolio",
       "img": "/static/images/portfolio.jpg",
@@ -107,7 +124,7 @@
       "title": "Portfolio",
       "text": "These are some projects, where I share my knowledge and experience.",
       "buttons": {
-        "url": "Demo",
+        "url": "Live",
         "repo": "Repo"
       }
     },
